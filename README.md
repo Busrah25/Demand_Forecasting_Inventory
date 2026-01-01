@@ -49,6 +49,10 @@ All calculations align with textbook supply chain analytics methods commonly imp
 ## Data and Logic
 Historical demand data is loaded from a CSV file and processed to calculate demand patterns and variability. On hand inventory values are simulated for demonstration purposes. Reorder logic reflects real world inventory planning techniques based on lead time demand and service level targets.
 
+## Screenshot
+![Inventory Optimization Dashboard](inventory_optimization_dashboard.png)
+
+
 ## How to Run Locally
 1. Clone the repository  
 2. Install dependencies  

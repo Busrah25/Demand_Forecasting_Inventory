@@ -7,6 +7,10 @@ This project simulates real world inventory planning scenarios using historical 
 
 The application provides both executive level KPIs and SKU level reorder recommendations to support data driven replenishment planning.
 
+
+## Live Demo
+https://demandforecastinginventory-bushra.streamlit.app/
+
 ## Business Problem
 Organizations must balance two competing risks:
 - Stockouts that reduce customer satisfaction and revenue  
@@ -50,3 +54,14 @@ Historical demand data is loaded from a CSV file and processed to calculate dema
 2. Install dependencies  
 3. Launch the Streamlit application  
 
+git clone https://github.com/Busrah25/Demand_Forecasting_Inventory.git
+
+cd Demand_Forecasting_Inventory
+streamlit run app.py
+
+
+## Future Improvements
+- Integration with real ERP inventory data  
+- Support for multiple service level scenarios  
+- EOQ based order quantity optimization  
+- Exportable replenishment reports for planners  
